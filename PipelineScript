@@ -1,0 +1,11 @@
+node {
+	for(i=0;i<2;i++){
+		stage "Stage" + i
+		print "Hello Amit Kumar Gupta !!"
+		if( i==0){
+			echo "Running on Stage 0"
+		}else{
+			echo "running on stage 1"
+		}			
+    }
+}
